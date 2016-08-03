@@ -1,0 +1,260 @@
+﻿.accordion {
+    height: 500px;
+}
+
+.accordionHeader {
+    border: 1px solid #DDD;
+    background-color: #666;
+    color: White;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.accordionHeaderSelected {
+    border: 1px solid #2F4F4F;
+    color: white;
+    border: 1px solid #DDD;
+    background-color: BLACK;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.accordionContent {
+    background-color: White;
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    height: 400px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+/* GRID
+*******/
+.mGrid {
+    width: 80%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.mGrid header {
+    position: absolute;
+}
+
+.mGrid td {
+    padding: 2px;
+    border: solid 1px #c1c1c1;
+    color: #717171;
+    text-align: left;
+}
+
+.mGrid th {
+    padding: 4px 2px;
+    color: #fff;
+    background: #424242 url(../images/grd_head.png) repeat-x top;
+    border-left: solid 1px #525252;
+    font-size: 0.9em;
+}
+
+.mGrid .alt {
+    background: #fcfcfc url(../images/grd_alt.png) repeat-x top;
+}
+
+.mGrid .pgr {
+    background: #424242 url(../images/grd_pgr.png) repeat-x top;
+}
+
+.mGrid .pgr table {
+    margin: 5px 0;
+}
+
+.mGrid .pgr td {
+    border-width: 0;
+    padding: 0 6px;
+    border-left: solid 1px #666;
+    font-weight: bold;
+    color: #fff;
+    line-height: 12px;
+    text-align: left;
+}
+
+.mGrid .pgr a {
+    color: #666;
+    text-decoration: none;
+}
+
+.mGrid .pgr a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.ModalBackground {
+    background-color: Gray;
+
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.ModalWindow {
+    border: 1px solid #2F17E3;
+    background: #F1F0F7;
+    padding: 2px 2px 2px 2px;
+    position: absolute;
+    top: -1000px;
+}
+
+/*TABS
+*/
+/*Header*/
+
+.Tab .ajax__tab_header {
+    color: #4682b4;
+    font-family: Calibri;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Body*/
+.Tab .ajax__tab_body {
+
+}
+
+/*Tab Active*/
+.Tab .ajax__tab_active .ajax__tab_tab {
+    background-color: #003399;
+    color: WHITE;
+    height: 30px;
+    width: 200px;
+}
+
+.Tab .ajax__tab_active .ajax__tab_inner {
+    color: #ffffff;
+    font-family: Calibri;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Tab .ajax__tab_active .ajax__tab_outer {
+    color: #ffffff;
+    padding-right: 6px;
+    margin-right: 2px;
+}
+
+/*Tab Inactive*/
+.Tab .ajax__tab_tab {
+    color: #666666;
+    height: 20px;
+    width: 200px;
+}
+
+.Tab .ajax__tab_inner {
+    color: #666666;
+    padding-left: 10px;
+}
+
+.Tab .ajax__tab_outer {
+    color: #666666;
+    padding-right: 6px;
+    margin-right: 2px;
+}
+
+div.ajax__calendar_days table tr td {
+    padding-right: 0px;
+    padding-left: 0px;
+    border: inherit;
+}
+
+.calendarvcashadmin_Theme .ajax__calendar_container {
+    background-color: #e2e2e2;
+    border: solid 1px #cccccc;
+}
+
+.calendarvcashadmin_Theme .ajax__calendar_header {
+    background-color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.calendarvcashadmin_Theme .ajax__calendar_title,
+.calendarvcashadmin_Theme .ajax__calendar_next,
+.calendarvcashadmin_Theme .ajax__calendar_prev {
+    color: #004080;
+    padding-top: 3px;
+}
+
+.calendarvcashadmin_Theme .ajax__calendar_body {
+    background-color: #e9e9e9;
+    border: solid 1px #cccccc;
+}
+
+.calendarvcashadmin_Theme .ajax__calendar_dayname {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+
+.calendarvcashadmin_Theme .ajax__calendar_day {
+    text-align: center;
+}
+
+.calendarvcashadmin_Theme .ajax__calendar_hover .ajax__calendar_day,
+.calendarvcashadmin_Theme .ajax__calendar_hover .ajax__calendar_month,
+.calendarvcashadmin_Theme .ajax__calendar_hover .ajax__calendar_year,
+.calendarvcashadmin_Theme .ajax__calendar_active {
+    color: #004080;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.calendarvcashadmin_Theme .ajax__calendar_today {
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.calendarvcashadmin_Theme .ajax__calendar_other,
+.calendarvcashadmin_Theme .ajax__calendar_hover .ajax__calendar_today,
+.calendarvcashadmin_Theme .ajax__calendar_hover .ajax__calendar_title {
+    color: #bbbbbb;
+}
+
+.TitleBar {
+    background: url("images/titleBarBg.gif") repeat-x scroll left bottom #FAFAFA;
+    cursor: move;
+}
+
+.Button {
+    background: #E9E9E9;
+    border: 1px solid #9B9B9B;
+    padding: 0.1em;
+    vertical-align: middle;
+}
+
+.modalPopup {
+    background-color: #696969;
+    filter: alpha(opacity=40);
+    opacity: 0.7;
+    xindex: -1;
+}
+
+.panel_with_padding {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 80px;
+    padding-bottom: 5px;
+    height: 23px;
+}
